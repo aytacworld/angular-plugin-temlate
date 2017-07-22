@@ -1,6 +1,6 @@
 {
   "name": "angular-plugin-template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Fork this project to create your own angular plugins",
   "private": true,
   "scripts": {
@@ -43,7 +43,7 @@
     "@angular/platform-browser": "^4.3.1",
     "@angular/platform-browser-dynamic": "^4.3.1",
     "@types/jasmine": "^2.5.53",
-    "@types/node": "^8.0.14",
+    "@types/node": "^8.0.15",
     "angular2-template-loader": "^0.6.2",
     "awesome-typescript-loader": "^3.2.1",
     "css-loader": "^0.28.4",

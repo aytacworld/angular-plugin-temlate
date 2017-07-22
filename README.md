@@ -2,7 +2,7 @@
 
 Fork this project to create your own angular plugins
 
-Don't forget to update `package.json`.
+Don't forget to update `package.json` and `rollup.config.js`.
 
 ## MIT License
 
