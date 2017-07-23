@@ -4,11 +4,9 @@ export default {
   format: 'umd',
   globals: {
     '@angular/core': 'ng.core',
-    '@angular/forms': 'ng.forms',
-    'validator': 'validator',
     'rxjs': 'rxjs'
   },
   moduleName: 'ng.simpleForms',
   sourceMap: false,
-  external: [ '@angular/core', '@angular/forms', 'validator', 'rxjs' ]
+  external: [ '@angular/core', 'rxjs' ]
 }
