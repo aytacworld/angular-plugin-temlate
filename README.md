@@ -4,6 +4,20 @@ Fork this project to create your own angular plugins
 
 Don't forget to update `package.json` and `rollup.config.js`.
 
+## Install
+
+`npm install --save angular-plugin-template`
+
+## Usage
+
+## Api
+
+## Test
+
+`npm test`
+
+## Examples
+
 ## MIT License
 
 Copyright (c) 2017 Adem Aytaç
