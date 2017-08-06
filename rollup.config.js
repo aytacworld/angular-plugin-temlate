@@ -1,5 +1,7 @@
+const pkg = require('./package.json');
+
 export default {
-  dest: 'dist/bundles/angular-plugin-template.umd.js',
+  dest: 'dist/bundles/' + pkg.name + '.umd.js',
   entry: 'dist/index.js',
   format: 'umd',
   globals: {
