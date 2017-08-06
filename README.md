@@ -2,7 +2,7 @@
 
 Fork this project to create your own angular plugins
 
-Don't forget to update `package.json` and `rollup.config.js`.
+Don't forget to update `package.json`.
 
 ## Install
 
@@ -10,13 +10,51 @@ Don't forget to update `package.json` and `rollup.config.js`.
 
 ## Usage
 
+app.module.ts
+
+```typescript
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { PluginModule } from 'angular-plugin-template';
+import { AppComponent } from './app.component';
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    PluginModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
+
+app.component.ts
+```typescript
+@Component({
+  selector: 'my-app',
+  template: `html here`,
+})
+export class App {
+}
+```
+
 ## Api
+
+|Input       |  Description   |  Type  |  Default  |
+|------------|----------------|--------|-----------|
+|input    |  desc | type | default value |
 
 ## Test
 
 `npm test`
 
 ## Examples
+
+[http://embed.plnkr.co/](http://embed.plnkr.co/)
 
 ## MIT License
 
