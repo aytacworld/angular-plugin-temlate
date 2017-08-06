@@ -1,6 +1,6 @@
 {
   "name": "angular-plugin-template",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "Fork this project to create your own angular plugins",
   "private": true,
   "scripts": {
@@ -33,27 +33,27 @@
   },
   "homepage": "https://github.com/aytacworld/angular-plugin-template#readme",
   "dependencies": {
-    "@angular/common": "^4.3.1",
-    "@angular/core": "^4.3.1",
+    "@angular/common": "^4.3.3",
+    "@angular/core": "^4.3.3",
     "rxjs": "^5.4.2",
-    "zone.js": "^0.8.14"
+    "zone.js": "^0.8.16"
   },
   "devDependencies": {
-    "@angular/compiler": "^4.3.1",
-    "@angular/compiler-cli": "^4.3.1",
-    "@angular/platform-browser": "^4.3.1",
-    "@angular/platform-browser-dynamic": "^4.3.1",
+    "@angular/compiler": "^4.3.3",
+    "@angular/compiler-cli": "^4.3.3",
+    "@angular/platform-browser": "^4.3.3",
+    "@angular/platform-browser-dynamic": "^4.3.3",
     "@types/jasmine": "^2.5.53",
-    "@types/node": "^8.0.15",
+    "@types/node": "^8.0.19",
     "angular2-template-loader": "^0.6.2",
-    "awesome-typescript-loader": "^3.2.1",
+    "awesome-typescript-loader": "^3.2.2",
     "codelyzer": "^3.1.2",
     "css-loader": "^0.28.4",
     "gulp": "^3.9.1",
     "gulp-angular-embed-templates": "^2.3.0",
     "gulp-sass": "^3.1.0",
-    "html-loader": "^0.4.5",
-    "jasmine-core": "^2.6.4",
+    "html-loader": "^0.5.0",
+    "jasmine-core": "^2.7.0",
     "karma": "^1.7.0",
     "karma-chrome-launcher": "^2.2.0",
     "karma-cli": "^1.0.1",
@@ -71,10 +71,10 @@
     "to-string-loader": "^1.1.5",
     "tslint": "^5.5.0",
     "typescript": "^2.4.2",
-    "uglify-js": "^3.0.25",
-    "webpack": "^3.3.0"
+    "uglify-js": "^3.0.27",
+    "webpack": "^3.4.1"
   },
   "peerDependencies": {
-    "@angular/core": ">=4.3.1"
+    "@angular/core": ">=4.3.3"
   }
 }
